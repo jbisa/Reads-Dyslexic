@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFF34BB1C3C9EEC00506CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF34BA1C3C9EEC00506CF1 /* AppDelegate.swift */; };
+		4DFF34BD1C3C9EEC00506CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF34BC1C3C9EEC00506CF1 /* ViewController.swift */; };
+		4DFF34C01C3C9EEC00506CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34BE1C3C9EEC00506CF1 /* Main.storyboard */; };
+		4DFF34C21C3C9EEC00506CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34C11C3C9EEC00506CF1 /* Assets.xcassets */; };
+		4DFF34C51C3C9EEC00506CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34C31C3C9EEC00506CF1 /* LaunchScreen.storyboard */; };
+		4DFF34D01C3C9EEC00506CF1 /* Reads_DyslexicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF34CF1C3C9EEC00506CF1 /* Reads_DyslexicTests.swift */; };
+		4DFF34DB1C3C9EEC00506CF1 /* Reads_DyslexicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF34DA1C3C9EEC00506CF1 /* Reads_DyslexicUITests.swift */; };
+		4DFF34EB1C3CA35300506CF1 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34E81C3CA35300506CF1 /* Fonts */; settings = {ASSET_TAGS = (); }; };
+		4DFF34EC1C3CA35300506CF1 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34E91C3CA35300506CF1 /* Images */; settings = {ASSET_TAGS = (); }; };
+		4DFF34ED1C3CA35300506CF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFF34EA1C3CA35300506CF1 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DFF34CC1C3C9EEC00506CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFF34AF1C3C9EEC00506CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFF34B61C3C9EEC00506CF1;
+			remoteInfo = "Reads Dyslexic";
+		};
+		4DFF34D71C3C9EEC00506CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFF34AF1C3C9EEC00506CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFF34B61C3C9EEC00506CF1;
+			remoteInfo = "Reads Dyslexic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DFF34B71C3C9EEC00506CF1 /* Reads Dyslexic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reads Dyslexic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFF34BA1C3C9EEC00506CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFF34BC1C3C9EEC00506CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DFF34BF1C3C9EEC00506CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFF34C11C3C9EEC00506CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFF34C41C3C9EEC00506CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFF34C61C3C9EEC00506CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFF34CB1C3C9EEC00506CF1 /* Reads DyslexicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reads DyslexicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFF34CF1C3C9EEC00506CF1 /* Reads_DyslexicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reads_DyslexicTests.swift; sourceTree = "<group>"; };
+		4DFF34D11C3C9EEC00506CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFF34D61C3C9EEC00506CF1 /* Reads DyslexicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reads DyslexicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFF34DA1C3C9EEC00506CF1 /* Reads_DyslexicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reads_DyslexicUITests.swift; sourceTree = "<group>"; };
+		4DFF34DC1C3C9EEC00506CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFF34E81C3CA35300506CF1 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		4DFF34E91C3CA35300506CF1 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		4DFF34EA1C3CA35300506CF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFF34B41C3C9EEC00506CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34C81C3C9EEC00506CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34D31C3C9EEC00506CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFF34AE1C3C9EEC00506CF1 = {
+			isa = PBXGroup;
+			children = (
+				4DFF34B91C3C9EEC00506CF1 /* Reads Dyslexic */,
+				4DFF34CE1C3C9EEC00506CF1 /* Reads DyslexicTests */,
+				4DFF34D91C3C9EEC00506CF1 /* Reads DyslexicUITests */,
+				4DFF34B81C3C9EEC00506CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFF34B81C3C9EEC00506CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF34B71C3C9EEC00506CF1 /* Reads Dyslexic.app */,
+				4DFF34CB1C3C9EEC00506CF1 /* Reads DyslexicTests.xctest */,
+				4DFF34D61C3C9EEC00506CF1 /* Reads DyslexicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFF34B91C3C9EEC00506CF1 /* Reads Dyslexic */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF34E81C3CA35300506CF1 /* Fonts */,
+				4DFF34E91C3CA35300506CF1 /* Images */,
+				4DFF34EA1C3CA35300506CF1 /* Images.xcassets */,
+				4DFF34BA1C3C9EEC00506CF1 /* AppDelegate.swift */,
+				4DFF34BC1C3C9EEC00506CF1 /* ViewController.swift */,
+				4DFF34BE1C3C9EEC00506CF1 /* Main.storyboard */,
+				4DFF34C11C3C9EEC00506CF1 /* Assets.xcassets */,
+				4DFF34C31C3C9EEC00506CF1 /* LaunchScreen.storyboard */,
+				4DFF34C61C3C9EEC00506CF1 /* Info.plist */,
+			);
+			path = "Reads Dyslexic";
+			sourceTree = "<group>";
+		};
+		4DFF34CE1C3C9EEC00506CF1 /* Reads DyslexicTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF34CF1C3C9EEC00506CF1 /* Reads_DyslexicTests.swift */,
+				4DFF34D11C3C9EEC00506CF1 /* Info.plist */,
+			);
+			path = "Reads DyslexicTests";
+			sourceTree = "<group>";
+		};
+		4DFF34D91C3C9EEC00506CF1 /* Reads DyslexicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFF34DA1C3C9EEC00506CF1 /* Reads_DyslexicUITests.swift */,
+				4DFF34DC1C3C9EEC00506CF1 /* Info.plist */,
+			);
+			path = "Reads DyslexicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFF34B61C3C9EEC00506CF1 /* Reads Dyslexic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFF34DF1C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads Dyslexic" */;
+			buildPhases = (
+				4DFF34B31C3C9EEC00506CF1 /* Sources */,
+				4DFF34B41C3C9EEC00506CF1 /* Frameworks */,
+				4DFF34B51C3C9EEC00506CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reads Dyslexic";
+			productName = "Reads Dyslexic";
+			productReference = 4DFF34B71C3C9EEC00506CF1 /* Reads Dyslexic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DFF34CA1C3C9EEC00506CF1 /* Reads DyslexicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFF34E21C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads DyslexicTests" */;
+			buildPhases = (
+				4DFF34C71C3C9EEC00506CF1 /* Sources */,
+				4DFF34C81C3C9EEC00506CF1 /* Frameworks */,
+				4DFF34C91C3C9EEC00506CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFF34CD1C3C9EEC00506CF1 /* PBXTargetDependency */,
+			);
+			name = "Reads DyslexicTests";
+			productName = "Reads DyslexicTests";
+			productReference = 4DFF34CB1C3C9EEC00506CF1 /* Reads DyslexicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DFF34D51C3C9EEC00506CF1 /* Reads DyslexicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFF34E51C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads DyslexicUITests" */;
+			buildPhases = (
+				4DFF34D21C3C9EEC00506CF1 /* Sources */,
+				4DFF34D31C3C9EEC00506CF1 /* Frameworks */,
+				4DFF34D41C3C9EEC00506CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFF34D81C3C9EEC00506CF1 /* PBXTargetDependency */,
+			);
+			name = "Reads DyslexicUITests";
+			productName = "Reads DyslexicUITests";
+			productReference = 4DFF34D61C3C9EEC00506CF1 /* Reads DyslexicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFF34AF1C3C9EEC00506CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Veracode;
+				TargetAttributes = {
+					4DFF34B61C3C9EEC00506CF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4DFF34CA1C3C9EEC00506CF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4DFF34B61C3C9EEC00506CF1;
+					};
+					4DFF34D51C3C9EEC00506CF1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4DFF34B61C3C9EEC00506CF1;
+					};
+				};
+			};
+			buildConfigurationList = 4DFF34B21C3C9EEC00506CF1 /* Build configuration list for PBXProject "Reads Dyslexic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFF34AE1C3C9EEC00506CF1;
+			productRefGroup = 4DFF34B81C3C9EEC00506CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFF34B61C3C9EEC00506CF1 /* Reads Dyslexic */,
+				4DFF34CA1C3C9EEC00506CF1 /* Reads DyslexicTests */,
+				4DFF34D51C3C9EEC00506CF1 /* Reads DyslexicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFF34B51C3C9EEC00506CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFF34EC1C3CA35300506CF1 /* Images in Resources */,
+				4DFF34C51C3C9EEC00506CF1 /* LaunchScreen.storyboard in Resources */,
+				4DFF34C21C3C9EEC00506CF1 /* Assets.xcassets in Resources */,
+				4DFF34ED1C3CA35300506CF1 /* Images.xcassets in Resources */,
+				4DFF34C01C3C9EEC00506CF1 /* Main.storyboard in Resources */,
+				4DFF34EB1C3CA35300506CF1 /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34C91C3C9EEC00506CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34D41C3C9EEC00506CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFF34B31C3C9EEC00506CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFF34BD1C3C9EEC00506CF1 /* ViewController.swift in Sources */,
+				4DFF34BB1C3C9EEC00506CF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34C71C3C9EEC00506CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFF34D01C3C9EEC00506CF1 /* Reads_DyslexicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFF34D21C3C9EEC00506CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFF34DB1C3C9EEC00506CF1 /* Reads_DyslexicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DFF34CD1C3C9EEC00506CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFF34B61C3C9EEC00506CF1 /* Reads Dyslexic */;
+			targetProxy = 4DFF34CC1C3C9EEC00506CF1 /* PBXContainerItemProxy */;
+		};
+		4DFF34D81C3C9EEC00506CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFF34B61C3C9EEC00506CF1 /* Reads Dyslexic */;
+			targetProxy = 4DFF34D71C3C9EEC00506CF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DFF34BE1C3C9EEC00506CF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFF34BF1C3C9EEC00506CF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFF34C31C3C9EEC00506CF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFF34C41C3C9EEC00506CF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFF34DD1C3C9EEC00506CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFF34DE1C3C9EEC00506CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFF34E01C3C9EEC00506CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reads Dyslexic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-Dyslexic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DFF34E11C3C9EEC00506CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reads Dyslexic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-Dyslexic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DFF34E31C3C9EEC00506CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reads DyslexicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-DyslexicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reads Dyslexic.app/Reads Dyslexic";
+			};
+			name = Debug;
+		};
+		4DFF34E41C3C9EEC00506CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reads DyslexicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-DyslexicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reads Dyslexic.app/Reads Dyslexic";
+			};
+			name = Release;
+		};
+		4DFF34E61C3C9EEC00506CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reads DyslexicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-DyslexicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reads Dyslexic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DFF34E71C3C9EEC00506CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reads DyslexicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.veracode.Reads-DyslexicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reads Dyslexic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFF34B21C3C9EEC00506CF1 /* Build configuration list for PBXProject "Reads Dyslexic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFF34DD1C3C9EEC00506CF1 /* Debug */,
+				4DFF34DE1C3C9EEC00506CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFF34DF1C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads Dyslexic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFF34E01C3C9EEC00506CF1 /* Debug */,
+				4DFF34E11C3C9EEC00506CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFF34E21C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads DyslexicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFF34E31C3C9EEC00506CF1 /* Debug */,
+				4DFF34E41C3C9EEC00506CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFF34E51C3C9EEC00506CF1 /* Build configuration list for PBXNativeTarget "Reads DyslexicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFF34E61C3C9EEC00506CF1 /* Debug */,
+				4DFF34E71C3C9EEC00506CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFF34AF1C3C9EEC00506CF1 /* Project object */;
+}
